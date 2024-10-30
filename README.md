@@ -1,7 +1,5 @@
 # Creating-and-Implementing-Custom-Alert-Rules-in-Snort-Intrusion-Detection-and-Prevention-Systems
 
-# Decrypting-HTTPS-Traffic-for-Malicious-Activity-Detection
-
 # Objective
 The goal of this analysis is to identify and document any malicious activities or processes observed within network traffic using Wireshark.
 
