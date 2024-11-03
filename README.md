@@ -11,8 +11,11 @@ The objective of this project is to develop and implement custom alert rules in 
 - 
 
 # Steps
+
 1. Before creating the actual alert for detection, what we need to do is to configure the snort first. Go to the snort configuration file which can be found in "/usr/local/etc/snort/snort.lua
-" and edit the file using text editor (as shown in the photo below 1.1). Find the word ips, remove the comment for "enable_builtin_rules = true," and add the variable" include = "/usr/local/etc/rules/local.rules" (as shown in photo below 1.2), This will help us not to provide a long format of command for the snort since it will automatically find the rules directory.
+" and edit the file using text editor (as shown in the photo below 1.1). Find the word "IPS", remove the comment for "enable_builtin_rules = true," and add the variable" include = "/usr/local/etc/rules/local.rules" (as shown in photo below 1.2), This will help us not to provide a long format of command for the snort since it will automatically find the rules directory.
+
+Note: I am using snort 3, so the configuration file will be snort.lua. Unlike on snort 2 which was named snort.conf
 
 1.1
 
