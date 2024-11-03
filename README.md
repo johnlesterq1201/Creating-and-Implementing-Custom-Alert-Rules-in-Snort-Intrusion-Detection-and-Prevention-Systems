@@ -17,11 +17,11 @@ The objective of this project is to develop and implement custom alert rules in 
 
 Note: I am using snort 3, so the configuration file will be snort.lua. Unlike on snort 2 which was named snort.conf
 
-1.1
+    1.1
 
 ![image](https://github.com/user-attachments/assets/657eaa34-2c80-49cd-8078-df5d3a860ca3)
 
-1.2
+    1.2
 
 ![image](https://github.com/user-attachments/assets/b5c7a36f-7c5a-4f51-b0ca-2668e712669c)
 
