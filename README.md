@@ -150,5 +150,10 @@ This is what it looks like when you press the enter, and it means the snort is w
 
    ![image](https://github.com/user-attachments/assets/fac5643c-8f87-49cc-906d-bf165f320371)
 
-10. Same as the previous process, use the Ubuntu Virtual Machine to connect the Target Machine via SSH. The command for connecting the to SSH via linux command "ssh jlwafu@192.169.100.164"
+10. Same as the previous process, use the Ubuntu Virtual Machine to connect the Target Machine via SSH. The command for connecting the to SSH via linux command "ftp 192.169.100.164 21"
+
+            10.1 Based on the results, our rule is able to detect a FTP connection
+
+    ![image](https://github.com/user-attachments/assets/87f6ee99-a3e7-4758-8ddd-ea34adf9b39c)
+
 
